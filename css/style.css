@@ -7,3 +7,9 @@ body{
 .banner-column{
     background-color: darkcyan;
 }
+.navbar-container{
+    background-color: darkslategray;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
