@@ -13,3 +13,24 @@ body{
     position: sticky;
     top: 0;
 }
+.about-container{
+    background-color: cadetblue;
+}
+.education-container{
+    background-color: mediumturquoise;
+}
+.bg-redtype{
+    background-color: tomato;
+}
+.redtype-color{
+    background-color: thistle;
+}
+.circle{
+    background-color: blueviolet;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.project-container{
+    background-color: cornflowerblue;
+}
