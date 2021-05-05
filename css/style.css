@@ -9,9 +9,10 @@ body{
 }
 .navbar-container{
     background-color: darkslategray;
-    position: -webkit-sticky; /* Safari */
+    /*position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
+    z-index: 2;
 }
 .about-container{
     background-color: cadetblue;
@@ -22,15 +23,47 @@ body{
 .bg-redtype{
     background-color: tomato;
 }
-.redtype-color{
-    background-color: thistle;
+
+.bg-redtype:hover{
+    color: black!important;
 }
-.circle{
-    background-color: blueviolet;
+.redtype-color{
+    color: #00000088;
+}
+.circle-edu{
+    background-color: tomato;
     width: 150px;
     height: 150px;
     border-radius: 50%;
 }
 .project-container{
     background-color: cornflowerblue;
+}
+.portfolio-container{
+    background-color: white;
+}
+.form-container{
+    background-color: rgba(169, 169, 169, 0.507);
+}
+
+.inner-form{
+    background-color: rgba(169, 169, 169, 0.507);
+}
+.footer{
+    background-color: #2F4F4F;
+}
+.circle{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.circle:hover{
+  
+    background-color: black;
+    
 }
